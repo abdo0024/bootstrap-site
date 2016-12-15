@@ -1,0 +1,27 @@
+body{
+	/*if two vales are set, first value refers to top and bottom, while the second is right and left*/
+	margin: 0 auto;
+	/*em is the font size--so the width of the page is equal to 50 chrachters in default font*/
+	max-width: 50em;
+	font-family: 'Open Sans', 'Arial',sans-serif;
+	/*Space in between lines*/
+	line-height: 1.5;
+	/**/
+	padding: 4em 1em;
+	/**/
+	color: #555;
+    background-color:#0EF7FF;
+    font
+	
+}
+h1 {
+    color:#E89B0C;
+}
+body {
+    color:#99FF0D;
+}
+@media screen and (min-width: 480px) {
+    body {
+        background-color: #99FF0D;
+    }
+}
